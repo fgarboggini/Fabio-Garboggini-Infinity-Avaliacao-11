@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de História</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de História</h1>
+        <h2 id="pergunta"></h2>
+        <h3>--------- Opções -----------</h3>
+        <div>
+            1 - <button type="button" class="alternativa" id="opcao0" value="0"></button>
+        </div>
+        <div>
+            2 - <button type="button" class="alternativa" id="opcao1" value="1"></button>
+        </div>
+        <div>
+            3 - <button type="button" class="alternativa" id="opcao2" value="2"></button>
+        </div>
+        <div>
+            4 - <button type="button" class="alternativa" id="opcao3" value="3"></button>
+        </div>
+        <h3 id="feedbackResposta"></h3>
+        <h4 id="dica"></h4> 
+        <button id="proxima">Próxima Pergunta</button>
+        <button id="recarregar" style="display: none;">Reiniciar Quiz</button>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
